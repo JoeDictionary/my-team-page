@@ -1,0 +1,85 @@
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+header {
+	font-family: PT Serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 48px;
+	letter-spacing: -0.045em;
+}
+
+.image-wrapper {
+	display: inline-block;
+}
+
+.header-description h3 {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 27px;
+	text-transform: uppercase;
+}
+
+.header-description p {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 27px;
+	letter-spacing: 0.005em;
+}
+
+main {
+	display: flex;
+	margin-top: 100px;
+}
+
+figure {
+	display: flex;
+	/* width: 33%; */
+	/* justify-content: center; */
+}
+
+figure img {
+	display: inline-block;
+	width: 80%;
+}
+
+.person {
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	margin-left: 3%;
+}
+
+.person-title {
+	/* display: inline-block;
+	text-align: left; */
+	
+	writing-mode: vertical-lr;
+	cursor: vertical-text;
+
+	font-family: 'PT Serif';
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 16px;
+	letter-spacing: 0em;
+	text-transform: uppercase;
+}
+
+.person-name {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 27px;
+}
